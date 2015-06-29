@@ -1,0 +1,5 @@
+a) 
+foobar ( -2, 3, 1 ) > foobar ( -3, 4, 1)
+
+b)
+f(x, y, z) = z - x

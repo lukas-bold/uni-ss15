@@ -1,0 +1,8 @@
+5-1)
+a)
+keine Sprünge -> Reihenfolge wird nicht verändert
+=> Sortieren durch Abzählen ist stabil.
+
+b)
+Insertion Sort ist aufgrund des Einfügens jedes beliebigen Elements an der richtigen Stelle. -> Gleichbleibende Reihenfolge
+=> stabil

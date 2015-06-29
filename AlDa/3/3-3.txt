@@ -1,0 +1,16 @@
+Aufgabe 3-3
+
+a)
+Wahr, da der Term stärker wächst als n^2, jedoch nicht langsamer.
+
+b)
+Falsch.
+
+c)
+Wahr, da es bis auf einen konstanten Faktor nicht schneller als g wächst.
+
+d)
+Falsch, da es lediglich 2x schneller als g wächst.
+
+e)
+Falsch, da der Term bei jedem n um x wächst. (für x>1)

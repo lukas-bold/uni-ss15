@@ -1,0 +1,67 @@
+
+Aufgabe 28
+
+
+a.
+we | x x x x | y
+rt | 3 2 1 0 |
+---| --------|--
+0  | 0 0 0 0 | 0
+1  | 0 0 0 1 | 1
+2  | 0 0 1 0 | 1
+3  | 0 0 1 1 | 1
+4  | 0 1 0 0 | 0
+5  | 0 1 0 1 | 1
+6  | 0 1 1 0 | 1
+7  | 0 1 1 1 | 1
+8  | 1 0 0 0 | 0
+9  | 1 0 0 1 | 1
+10 | 1 0 1 0 | 1
+11 | 1 0 1 1 | 1
+12 | 1 1 0 0 | 0
+13 | 1 1 0 1 | 1
+14 | 1 1 1 0 | 1
+15 | 1 1 1 1 | 1
+
+b.
+KNF
+f(x0, x1, x2, x3) =
+(  x3 +  x2 +  x1 +  x0 ) *
+(  x3 + -x2 +  x1 +  x0 ) *
+( -x3 +  x2 +  x1 +  x0 ) *
+( -x3 + -x2 +  x1 +  x0 )
+
+DNF
+f(x0, x1, x2, x3) =
+(-x3 * -x2 * -x1 *  x0 ) +
+(-x3 * -x2 *  x1 * -x0 ) +
+(-x3 * -x2 *  x1 *  x0 ) +
+(-x3 *  x2 * -x1 *  x0 ) +
+(-x3 *  x2 *  x1 * -x0 ) +
+(-x3 *  x2 *  x1 *  x0 ) +
+( x3 * -x2 * -x1 *  x0 ) +
+( x3 * -x2 *  x1 * -x0 ) +
+( x3 * -x2 *  x1 *  x0 ) +
+( x3 *  x2 * -x1 *  x0 ) +
+( x3 *  x2 *  x1 * -x0 ) +
+( x3 *  x2 *  x1 *  x0 ) +
+
+
+Die KNF ist vorteilhafter, da es wesentlich weniger Fälle mit positivem Ergebnis als mit negativem gibt.
+Darüber hinaus kann man die KNF hier leichter vereinfachen:
+
+
+
+(  x3 +  x2 +  x1 +  x0 ) *
+(  x3 + -x2 +  x1 +  x0 ) *
+( -x3 +  x2 +  x1 +  x0 ) *
+( -x3 + -x2 +  x1 +  x0 )
+=
+((  x3 +  x2) *
+(  x3 + -x2) *
+( -x3 +  x2) *
+( -x3 + -x2)) + x0 + x1
+=
+x0 + x1
+
+Schaltplan: 28.pdf

@@ -1,0 +1,12 @@
+
+a)
+I. Durch die beiden Vorraussetzung der Trichotomie und der Transitivität ist gewährleitet, dass die Abfolge aller ungleichen Elemente eindeutig bestimmt ist.
+II. Ist eine Suche stabil, sind alle Elmente, die in einer Gleich-Beziehung (Nachbarelement) zueinander stehen eindeutig sortiert. -> Die resultierende Permutation ist eindeutig.
+
+I. und II. => Permutation ist eindeutig bestimmt.
+
+b)
+Stabilität ist eine Eigenschaft, die sich auf das Verhalten eines Algorithmus beziehen, wenn zwei oder mehr Elemente in einer Gleich-Beziehung stehen. Transitivität ist kein Bestandteil dieser Vorraussetzung.
+
+Bubble Sort
+Insertion Sort

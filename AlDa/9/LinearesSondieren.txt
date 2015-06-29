@@ -1,0 +1,9 @@
+
+(a)
+Der Minimalwert eines Integers wird benutzt, um eine leere Zelle zu makieren. Diese Zahl kann aber nicht von der Hashtabelle gespeichert werden.
+
+(b)
+contains(FREE)
+man prüft, ob noch ein Integerminimalwert vorhanden ist.
+Ist keine leere Zelle vorhanden, ist die Tabelle voll.
+

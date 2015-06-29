@@ -1,0 +1,26 @@
+a
+Kommentar 1 Nr.: vi
+Kommentar 2 Nr.: ii
+Kommentar 3 Nr.: vii
+Kommentar 4 Nr.: i
+Kommentar 5 Nr.: iv
+Kommentar 6 Nr.: iii
+Kommentar 7 Nr.: v
+Kommentar 8 Nr.: ix
+Kommentar 9 Nr.: vii
+Kommentar 10 Nr.:
+
+b
+Aktueller Wert: : 2
+Aktueller Wert: : 1
+Aktueller Wert: : 0
+
+c
+In der vorhandenen Implementierung werden pro Wort '5' 4 Bits vorgesehen. Man bräuchte allerdings nur 3 Bits. Verändert man die letzten Zeilen zu
+
+4 addi $sp, -12
+5 sw $t0, 9
+6 sw $t1, 6
+7 sw $t2, 3
+
+, kann man 3 Bits im Speicher sparen.

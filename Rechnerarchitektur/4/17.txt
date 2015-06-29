@@ -1,0 +1,5 @@
+a: r
+b: r
+c: f
+d: f
+e: f

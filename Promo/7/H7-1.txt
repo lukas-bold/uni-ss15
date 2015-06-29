@@ -1,0 +1,37 @@
+H7-1
+
+a)
+i)
+FV = {p,q,r}
+ii)
+FV = {b,d,e}
+iii)
+FV = {}
+iv)
+FV = {u,v}
+v)
+FV = {g,i,j}
+
+b)
+i)
+(\a -> b a)[x/a, y/b] =
+(\a -> b a) [x/a])[y/b] =
+(\a -> b a)[y/b] =
+(\a -> y a)
+
+ii)
+((\x -> (\y -> x (y z))) x)[a/x,b/y,(\c -> d)/z] =
+((\x -> (\y -> x (y z))) a)[b/y,(\c -> d)/z] =
+((\x -> (\y -> x (y z))) a)[(\c -> d)/z] =
+((\x -> (\y -> x (y (\c -> d)))) a)
+
+iii)
+p (q r)[q/r,p/t,s/q] =
+p (q q)[p/t,s/q] =
+p (q q)[s/q] =
+p (s s)
+
+iv)
+(\u -> (\v -> u w))[(u v)/w] =
+(\u' -> (\v -> u' w))[u/u', (u v)/w] =
+(\u' -> (\v -> u' u v))
